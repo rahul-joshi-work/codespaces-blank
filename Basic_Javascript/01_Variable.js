@@ -34,7 +34,7 @@ let region = "Junagadh";
 // console.table([firstname, lastname, salary, college, region]);
 
 let all = (firstname+" "+lastname+" "+salary+" "+college+" "+region);
-for(let a=0; a < all.length-32; a++)
+for(let a=0; a < all.length-33; a++)
 {    
     console.log("All = " + all);
 }
