@@ -31,8 +31,6 @@
 // console.log(one.two = "this is an two");
 // console.log(one.three = "this is an three");
 
-
-
 // const three = {
 //     A:"Aone",
 //     B:"Bone",
@@ -75,15 +73,72 @@
 // console.log(obj2[symbol]);
 
 
-//example : 3 object with symbol
-const symbol = Symbol("Ohe Ohe");
-const obj3 = {
-    This : "this",
-    That : "that",
-    Me : "me",
-    [symbol] : "this an symbol"
-}
-console.log(obj3[symbol]);
-console.log("Old_1 = " + obj3.This);
-console.log("Old_2 = " + obj3.That);
-console.log("Old_3 = " + obj3.Me);
+// example : 3 object with symbol
+// const symbol = Symbol("Ohe Ohe");
+// const obj3 = {
+//     This : "this",
+//     That : "that",
+//     Me : "me",
+//     [symbol] : "this an symbol"
+//}
+// console.log(obj3[symbol] = "This is an symbol");
+// console.log(obj3.This = "Hello Friends");
+// console.log(obj3.That = "I am rahul joshi");
+// console.log(obj3.Me = "What about you");
+
+// console.log(obj3.This);
+// console.log(obj3.That);
+// console.log(obj3.Me);
+// console.log(Object.freeze(obj3));
+
+// adding the function 
+// obj3.greeting = function(){
+//     console.log("With Adding the function");
+// }
+// console.log(obj3.greeting());
+
+// obj3.greeting1 = function(){
+//     console.log("This an another function");
+// }
+// console.log(obj3.greeting1());
+
+// const obj4 = {
+//     one : "One",
+//     two : "Two",
+//     three : "Three",
+//     name : "Rahul Joshi"
+// }
+
+//Adding the functions-1
+// obj4.fun1 = function(x,y){
+//     console.log("Number one function");
+//     const A = x + y;
+//     return A;
+// // }
+// console.log(obj4.fun1(5,5));
+
+//Adding the functions-2
+// obj4.fun2 = function(){
+//     console.log("This is an another function");    
+// }
+// console.log(obj4.fun2());
+
+// obj4.fun3 = function(){
+//     console.log(`This is an function ${this.name}`);
+// }
+// console.log(obj4.fun3());
+
+// obj4.fun4 = function(){
+//     console.log(`ONE =  ${this.one}`);
+// }
+// console.log(obj4.fun4());
+
+// obj4.fun5 = function(){
+//     console.log(`TWO = ${this.two}`);
+// }
+// console.log(obj4.fun5());
+
+// obj4.fun6 = function(){
+//     console.log(`THREE ${this.three}`);
+// }
+// console.log(obj4.fun6());
