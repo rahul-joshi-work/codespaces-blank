@@ -49,7 +49,6 @@
 // console.log(three.B = "oh two");
 // console.log(three.C = "oh three");
 
-
 // example:1 symbol with object
 // const symbol = Symbol("key1");
 // const obj1 = {
@@ -58,14 +57,11 @@
 //     Location : "Ahemdabad",
 //     [symbol]: "key1"
 // }
-//console.log(obj1["symbol"]);
+// console.log(obj1["symbol"]);
 // console.log(obj1.Name = "this is an rahul");
 // console.log(obj1.Surname = "this is an joshi");
 // console.log(obj1.Location = "Junagadh Location");
 // console.log(obj1[symbol] = "this is an key symbol");
-
-
-
 
 
 // example: 2 with symbol and object.
@@ -79,13 +75,15 @@
 // console.log(obj2[symbol]);
 
 
-
-// //example : 3 object with symbol
-// const symbol = Symbol("Ohe Ohe");
-// const obj3 = {
-//     This : "this",
-//     That : "that",
-//     Me : "me",
-//     [symbol] : "this an symbol"
-// }
-// console.log(obj3[symbol]);
+//example : 3 object with symbol
+const symbol = Symbol("Ohe Ohe");
+const obj3 = {
+    This : "this",
+    That : "that",
+    Me : "me",
+    [symbol] : "this an symbol"
+}
+console.log(obj3[symbol]);
+console.log("Old_1 = " + obj3.This);
+console.log("Old_2 = " + obj3.That);
+console.log("Old_3 = " + obj3.Me);
